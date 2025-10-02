@@ -11,7 +11,7 @@
 //   const words = str.toLowerCase().split(" ");
 //   const result = {};
 //   words.forEach(word => {
-//     result[word] = (result[word] || 0) + 1;
+//     result[word] = (result[word] || 0) +1;
 //   });
 //   return result;
 // }
@@ -48,7 +48,7 @@
 //   }
     
 //   console.log(groupByClass(students));
-// }
+
 
 //  --------------------------------------------------------------------------------------------------------------------
 // 3. Filter Products by Price Range
@@ -114,8 +114,7 @@
 //   ];
   
 //   function getTotalSalary(employees) {
-//     return employees.reduce((total, emp) => total + emp.salary, 0);
-//   }
+//     return employees.reduce((total, emp) =>  total + emp.salary, 0);}
   
 //   console.log(getTotalSalary(employees));
 // ------------------------------------------------------------------------------------------------------------------

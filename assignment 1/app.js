@@ -129,9 +129,10 @@
 //     obtainedMarks: "836/1100",
 //     isPassed: true
 //   }
-// biodata(stdobj)
+// biodata(stdobj);
+
 // function biodata(obj)
-// {
+// {   
 //   for(let key in obj)
 //   {
 //     console.log(`${key}: ${obj[key]}`)
@@ -164,7 +165,8 @@
 // {
 //     console.log("banana is not include");
 // }
-// console.log(favfruit);
+
+// -----------------------------------------------------------------------------------------------------------------------
 // 17) Create an array of numbers. Return a new array where each number is multiplied by 2.
 // let arr = [1,2,3,4,5,6,7,8,9,10]
 // let Multi2 = arr.map((num)=> 
@@ -401,25 +403,25 @@
   
 //   tasks.forEach(item => {
 //     const status = item.completed ? "Completed" : "Incomplete";
-//     console.log(`Task: ${item.task} - Status: ${status}`);
+//     console.log(`Task: ${item.task} - Status: ${item.completed}`);
 //   });
 // ---------------------------------------------------------------------------------------------------------------------------
 // 35) From a list of employees, return a new array that adds a new field:
 // "status": "active" to each object.
-// const employes =[
-//   {
-//     name: "Adnan"
-//   },
-//   {
-//     name: "Shayan"
-//   },
-//   {
-//     name: "Ahmed"
-//   }
-// ];
+const employes =[
+  {
+    name: "Adnan"
+  },
+  {
+    name: "Shayan"
+  },
+  {
+    name: "Ahmed"
+  }
+];
 
-// const newArr = employes.filter((add)=>
-// {
-//   return add.status ="active";   
-// })
-// console.log(newArr);
+const newArr = employes.filter((add)=>
+{
+  return add.status ="active";   
+})
+console.log(newArr);
